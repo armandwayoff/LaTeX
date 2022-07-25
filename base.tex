@@ -11,19 +11,19 @@
 \usepackage[dvipsnames]{xcolor}
 
 \newenvironment{preuve}
-  {\begin{proof}[\textbf{\blacksquare\ \textsc{Démonstration.}}]}
+  {\begin{proof}[$\blacksquare$\ \textbf{\textsc{Démonstration}}]}
   {\end{proof}}
   
 \newenvironment{elem_preuve}
-  {\begin{proof}[\textbf{\blacksquare\ \textsc{Éléments de démonstration.}}]}
+  {\begin{proof}[$\blacksquare$\ \textbf{\textsc{Éléments de démonstration}}]}
   {\end{proof}}
 
 \newenvironment{solution}
-  {\renewcommand\qedsymbol{$\lhd$}\begin{proof}[\blacktriangleright \textbf{\textsc{Solution.}}]}
+  {\renewcommand\qedsymbol{$\lhd$}\begin{proof}[$\blacktriangleright$ \textbf{\textsc{Solution}}]}
   {\end{proof}}
 
 \newenvironment{elem_sol}
-  {\renewcommand\qedsymbol{$\lhd$}\begin{proof}[\blacktriangleright \textbf{\textsc{Éléments de solution.}}]}
+  {\renewcommand\qedsymbol{$\lhd$}\begin{proof}[$\blacktriangleright$ \textbf{\textsc{Éléments de solution}}]}
   {\end{proof}}
 
 \usepackage[most]{tcolorbox}
@@ -193,7 +193,7 @@ title=#2,#1}
 \newcommand{\Endo}{\mathscr{L}}
 \newcommand{\Trsp}[1]{#1^\top}
 \newcommand{\Inv}[1]{#1^{-1}}
-\renewcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\Tr}{\mathrm{Tr}}
 \newcommand{\com}{\mathrm{com}}
 \newcommand{\Mat}{\mathrm{Mat}}
 \newcommand{\Diag}{\mathrm{Diag}}
